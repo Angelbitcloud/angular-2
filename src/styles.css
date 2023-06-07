@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-dark-purple/theme.css";
+@import "primeng/resources/primeng.css";
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-column {
+    text-align: center;
+}
